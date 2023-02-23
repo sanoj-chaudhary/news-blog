@@ -1,0 +1,72 @@
+.LikeBlogCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  background: linear-gradient(158.83deg, rgba(255, 255, 255, 0.4) 2.85%, rgba(255, 255, 255, 0.1) 90.8%);
+  box-shadow: 0 4px 40px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: 1px solid white;
+}
+
+.LikeBlogCard p {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.loginRightSideWrapper {
+  background-color: var(--secondryColor);
+  border-radius: 5px;
+}
+
+.registerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #fff; */
+  max-width: 520px;
+  margin: auto;
+  margin-top: 10px 20px;
+  padding: 20px;
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05); */
+}
+
+.signupBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 490px;
+  height: 48px;
+  border: 0;
+  background: #395180;
+  border-radius: 10px;
+  color: white;
+  flex: none;
+  order: 6;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.login-form {
+  border-radius: 5px;
+  border: 1px solid #d0660c;
+  padding: 16px;
+  box-shadow: 0px 0px 90px #d0660c36;
+}
+
+fieldset.login-form legend {
+  float: inherit;
+  width: auto;
+}

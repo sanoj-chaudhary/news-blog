@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Raleway', sans-serif; 
+}
+
+/* new css */
+
+
+.banner-meun {
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+ }
+ .section-menu-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 14px;
+  border-left: 6px solid #C72617;
+  margin-bottom: 15px;
+ }
+ 
+ .lift-side-text {
+     font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 32px;
+ color: #313131;
+ }
+ .right-side-text-10 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #131212;
+ }
+ .Unock-text-in {
+     justify-content: space-between;
+ }
+   
+ .sideber-menu {margin-bottom: 20px;}
+ 
+ .sideber-menu-text img {width: 100%; height: 347px;}
+ 
+ .text-conter {padding: 15px 0 0;}
+ .text-conter h1 {
+    font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   color: #313131;
+ }  
+ .text-conter p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+   line-height: 25px;
+   color: #484848;
+ } 
+ span{
+     font-style: normal;
+    font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ text-align: center;
+ color: #646464;
+ 
+ }
+  
+
+ .farme-meun-in-9 {
+    padding: 0px;
+    height: auto;
+    margin-top: 25px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #dddd;
+ }
+ .farme-meun-in-9:nth-last-child(1) {
+    border: 0;
+}
+ .imgex-in{
+     display: flex;
+ flex-direction: row;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 27px;
+ }
+ .farme-meun-9{
+     display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 16px;
+ }
+ .farme-meun-9 img{
+    width: 173px;
+    height: 142px;
+ }
+ .farme-meun-in-all {
+     display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 4px;
+ }
+ .farme-meun-in h1 {
+ font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 28px;
+ color: #313131;
+ }
+ 
+ .farme-meun-in p {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 25px;
+ color: #484848;
+ 
+ }
+ .right-side-menu {
+     display: flex;
+     flex-direction: column;
+     padding: 0px;
+     gap: 23px;
+ }
+ .right-side-text{display: flex;flex-direction: row;align-items: flex-start;gap: 16px;}
+ .right-side-text-in {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
+ gap: 8px;
+ }
+ 
+ .text-conter-0 h1 {
+ font-style: normal;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 32px;
+ color: #313131;
+ }
+ 
+ .text-conter-0 p {
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 25px;
+ color: #484848;
+ 
+ }
+ 
+.imgex img {
+    width: 100%;
+    margin: 14px 0;
+}
+/*}hdi*/
+.farme_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.row.top-minu {
+    position: relative;
+    margin-top: 36px;
+}
+.right-side-0_bg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.farme-meun-lin::before{
+ height: auto;
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: -13px;
+ width: 100%;
+ border-bottom: 3px solid  #DCDCDC;
+}
+
+
+.imex-lift img{
+    position:absolute;
+}
+.farme_31{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px 30px 20px;
+    gap: 10px;
+    position:relative;
+    width: 616px;
+    height: 184.52px;
+    left: 0px;
+    top: 313.48px;
+}
+.farme_30_0 {
+    width: 92%;
+}
+.farme_30_0 h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.farme_30_0 p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+.right-side-imges {
+    background: white;
+    border-radius: 50%;
+    width: 96px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.farme-meun_32 {
+    display: flex;
+    flex-direction: column;
+}
+
+.farme-meun_30-in {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.farme-meun_right-text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 32px;
+    color: #313131;
+}
+.farme-meun_right-text p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #313131;
+}
+
+.section-banner {
+    margin: 40px 0;
+}
+.banner-menu-bg {
+    background: #fff;
+    padding: 20px;
+}
+
+
+
+/*top*/
+.banner-menu-bg {
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 8%);
+    padding: 16px;
+    display: grid;
+    margin-top: 12px;
+}
+
+.meun-bar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-left: 6px solid #FB4005;
+}
+.meun-bar:before{
+ height: auto;
+ content: "";
+ position: absolute;
+ bottom: -13px;
+ left: -6px;
+ width: 100%;
+ border-bottom: 1px solid  #DCDCDC;
+}
+
+.farme-tltle {
+    padding-top: 33px;
+}
+.farme-meun-toggole {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.farme-meun10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.farme-meun-in h1 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color:  #313131;
+    font-style: normal;
+}
+
+.farme-meun-in p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    font-style: normal;
+    color: #484848;
+}
+.farme-meun-right-tilte .farme-meun10 {
+    padding-top: 33px;
+   }
+.stories-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-bottom: 25px;
+}
+.stories-menu img{
+    width: 473px;
+height: 200px;
+}
+
+.text-tolyy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.farme-9 h1 {
+    font-size: 20px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #313131;
+}
+
+.farme-9 p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    font-style: normal;
+    color: #484848;
+}
+
+
+/*<top-line*/
+
+.imgex img {
+    width: 100%;
+    margin: 14px 0;
+}
+/*}hdi*/
+.farme_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+.row.top-minu {
+    position: relative;
+    margin-top: 36px;
+}
+.right-side-0_bg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.farme-meun-lin::before{
+ height: auto;
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: -13px;
+ width: 100%;
+ border-bottom: 3px solid  #DCDCDC;
+}
+
+
+.imex-lift img{
+    position:absolute;
+}
+.farme_31{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px 30px 20px;
+    gap: 10px;
+    position:relative;
+    width: 616px;
+    height: 184.52px;
+    left: 0px;
+    top: 313.48px;
+}
+.farme_30_0 {
+    width: 92%;
+}
+.farme_30_0 h1 {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.farme_30_0 p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+.right-side-imges {
+    background: white;
+    border-radius: 50%;
+    width: 96px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.farme-meun_32 {
+    display: flex;
+    flex-direction: column;
+}
+
+.farme-meun_30-in {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.farme-meun_right-text h1 {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 32px;
+    color: #313131;
+}
+.farme-meun_right-text p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #313131;
+}
